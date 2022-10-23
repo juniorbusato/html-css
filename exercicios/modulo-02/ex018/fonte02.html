@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: love;
+            src: url(fonts/love\ story\ ttf.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }   
+
+        @font-face {
+            font-family: gotico;
+            src: url(fonts/Medici\ Text.ttf) format('truetype'), url(fonts/MediciText.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+        
+         /* 
+         Para o comando "format" usado acima, ler regras abaixo:
+        
+         Tipos de format() 
+         - opentype (otf)
+         - truetype (ttf)
+         - embedded-opentype
+         - truetype-aat (Apple Advanced Typography)
+         - svg
+
+         *** ttf e otf geralmente funcionam em todos os navegadores
+         */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'love', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+        h2 {
+            font-family: gotico;
+            font-size: 4em;
+            font-weight: normal;
+        }
+
+        h3 {
+            font-family: 'Lora', serif;
+            font-size: 30px;
+            font-weight: 32px;
+            color: #211F1F;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci et ut libero enim esse nulla numquam quidem voluptatem, aut, illo provident ullam doloribus sapiente vero eveniet iusto commodi inventore hic?
+    </p>
+    <br>
+    <h2>Título 2</h2>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus est libero iusto, temporibus a maiores tenetur voluptatibus sit, officiis quas, rerum ea impedit. Aliquid libero illo voluptas ratione laboriosam eos!
+    </p>
+    <br>
+    <h3>Texto copiado do terra</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam reiciendis veritatis quidem sapiente? Sequi, molestias omnis, voluptates tenetur reprehenderit atque alias distinctio dicta ea, repellendus quia libero exercitationem repudiandae officia!</p>
+</body>
+</html>

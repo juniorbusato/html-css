@@ -1,0 +1,13 @@
+***Envelopar frase com algum comando***
+
+seleciona frase
+
+ctrl + shift + p
+
+"EMMET: Envolver com abreviação"
+
+enter
+
+<comando>
+
+enter

@@ -1,0 +1,4 @@
+Cor base: 
+#3DDC84
+
+Estilo Monocromático

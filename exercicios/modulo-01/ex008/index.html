@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>O comando document.getElementById('teste') é escrito em linguagem JavaScript</p>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <p>Para deixar a parte do comando com espaçamento de tamanho igual, utilizei o comando &lt;code&gt; para utilizar a fonte monoespaçada</p>
+    <br>
+    <hr>
+    <br>
+
+    <pre>
+        <code>
+            num = int(input('digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do Programa')
+        </code>
+    </pre>
+    <p>No caso acima foi utilizado a tag &lt;pre&gt; envelopando a tag &lt;code&gt; para manter o espaçamento e também a identação na vertical</p>
+    <p>(Tudo que estiver dentro da tag &lt;pre&gt; vai ser considerado, inclusive espaços e parágrafo)</p>
+    <br>
+    <hr>
+    <br>
+    <p>Agora vamos usar de novo o mesmo caso acima só que sem o grande espaço na esquerda do código</p>
+    <pre>
+        <code>
+num = int(input('digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do Programa')
+        </code>
+    </pre>
+    <p>No caso acima apenas segurar a tecla "shift" e ir apertando a tecla "tab" para ir voltando a posição do código</p>
+
+    <br><hr><br>
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <p>Nesse caso foi utilizada a tag &lt;q&gt; (quote), utilizada em citações</p>
+    
+    <br>
+
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <p>Para uma citação muito grande (como acima), usamos a tag &lt;blockquote&gt;. usei o código "cite=" com link para os mecanismos de busca do google saberem de onde vem a citação </p>
+    
+    <br><hr><br>
+
+    <h2>Abreviações:</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <p>Para aparecer o significado quando passa o mouse em cima do texto, envelopamos o texto usando a tag &lt;abbr&gt;</p>
+
+    <br><hr><br>
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p>Para escrever um texto ao contrário utilizamos a tag &lt;bdo dir="rtl"&gt; (rtl = right to left)</p>
+    <br>
+
+</body>
+</html>
