@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
             background-color: black;
             background-image: url('images/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorthand - background
+            
+                color > image > position > repeat > [size] > attachment
+
+                *[size] -> size não tem funcionado, então não usar junto 
+
+                exemplo:
+                
+                background: black url('images/wallpaper002.jpg') center center no-repeat [não vai o size] fixed;
+            
+            */ 
+
+            background: black url('images/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +44,13 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptates, iusto, deserunt suscipit porro temporibus eius quo consequatur fugit illum hic vitae, assumenda doloremque totam quidem perspiciatis sunt. Expedita, corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam iusto asperiores recusandae iure dicta doloremque assumenda illo voluptatum eveniet, reiciendis optio rem eos! Veritatis voluptas itaque tenetur rem natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores itaque odit quaerat dolore modi quibusdam repellat, sint fuga omnis magnam voluptates distinctio id hic facere maxime beatae cum veritatis.</p>
 
     </main>
